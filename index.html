@@ -42,8 +42,8 @@
   const frame = document.getElementById('frame');
   if (!frame) throw new Error('#frame missing');
 
-  frame.style.width = SOURCE_W + 'px';
-  frame.style.height = SOURCE_H + '200%';
+  frame.style.width = SOURCE_W + '200%';
+  frame.style.height = SOURCE_H + 'px';
 
   function fit() {
     const vw = document.documentElement.clientWidth;
